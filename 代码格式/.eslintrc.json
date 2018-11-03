@@ -19,15 +19,23 @@
             "error",
             2
         ],
+        "jsx-quotes":"error",
         "space-before-function-paren": ["error", "always"],
         "space-before-blocks": ["error", "always"],
         "keyword-spacing": 2 ,
         "block-spacing":"error",
         "linebreak-style": [
-            "error",
+          2,
             "windows"
         ],
-        "quotes": [
+        "no-unused-vars": [
+          "error",
+          { "varsIgnorePattern": "React" }
+        ],
+      "no-unused-labels": [
+        "error"
+      ],
+      "quotes": [
             "error",
             "single"
         ],
